@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=4489&resolucion=3840x2160);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: whitesmoke;
+
+}
+
+
+.Card_Wether{
+ 
+  /* border: 2px solid #00b0ff ; */
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  /* height: 500px; */
+  background-color:rgb(0, 0, 0, 0.4);
+  color: whitesmoke;
+}
+
+.Card_Wether button{
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.Card_Wether ul li {
+  text-transform: capitalize;
+
+}
+
+.Card_Wether button:hover{
+  
+  background-color: rgb(0, 0, 0, 0.3);
+  color: beige;
+}
+
+.Card_Wether p{
+  margin-top: 1.5rem;
+  font-size: 50px;
+  font-weight: 200;
+  color: #00b0ff;
+}
+
+.Wether_letters{
+  line-height: 1.5;
+  /* font-weight: bold; */
+   ;
+
+}
+
+
+@media (min-width: 300px) {
+  .Card_Wether{
+      width: 300px;
+  }
+  
+}
