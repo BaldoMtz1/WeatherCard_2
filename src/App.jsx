@@ -48,6 +48,7 @@ function App() {
           setTemperature(newTemperature);
           setWeather(res.data);
         })
+        
 
         .catch((err) => console.log(err));
     }

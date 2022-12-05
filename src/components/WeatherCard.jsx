@@ -9,7 +9,7 @@ const WeatherCard = ({ clima , temperatura , cambioUnidadTemp, esCelsius}) => {
 
       <section className="Weather_body">
         <div>
-          <img
+          <img className="img-animation"
             src={` http://openweathermap.org/img/wn/${clima?.weather[0].icon}@4x.png`}
             alt=""
           />
@@ -29,5 +29,9 @@ const WeatherCard = ({ clima , temperatura , cambioUnidadTemp, esCelsius}) => {
     </article>
   );
 };
+
+
+
+
 
 export default WeatherCard;
